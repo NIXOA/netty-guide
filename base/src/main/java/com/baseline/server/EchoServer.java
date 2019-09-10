@@ -1,4 +1,4 @@
-package com.baseline;
+package com.baseline.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -12,6 +12,7 @@ import java.net.InetSocketAddress;
 
 /**
  * netty服务端
+ *
  * @Author Godzilla
  * @Date 2019/9/9 23:26
  * @Version 1.0
@@ -39,7 +40,7 @@ public class EchoServer {
 
     /**
      * 创建netty服务过程:
-     *
+     * <p>
      * -> 创建一个ServerBootstrap的实例已引导和绑定服务器
      * -> 创建并且分配一个NioEventLoopGroup实例进行事件的处理
      * -> 指定服务器绑定的本地InetSocketAddress
