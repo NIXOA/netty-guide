@@ -11,9 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.8" />
-      <module name="base-netty" target="1.8" />
       <module name="netty-guide" target="1.5" />
-      <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

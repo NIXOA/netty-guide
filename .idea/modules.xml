@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/src/main/main.iml" filepath="$PROJECT_DIR$/base/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-guide.iml" filepath="$PROJECT_DIR$/netty-guide.iml" />
     </modules>
   </component>
